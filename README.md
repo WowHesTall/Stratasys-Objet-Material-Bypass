@@ -32,7 +32,6 @@ Generally reversed (00 01 00 C1 02 = 02 C1 00 01 00).
 XOR (06 00 01 00 C1 02 = C4).
 
 #### RFID Initialisation
-| Length | Payload | Checksum |
-| :---: | :---: | :---: |
-| PC Request |||
-| 06 | 00 01 00 C1 02 | C4 |
+| Length | Payload | Checksum | | Length | Payload | Checksum |
+| :---: | :---: | :---: | | :---: | :---: | :---: |
+| 06 | 00 01 00 C1 02 | C4 | | 06 | 00 01 00 C1 02 | C4 |
