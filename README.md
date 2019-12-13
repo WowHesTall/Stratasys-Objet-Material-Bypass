@@ -38,13 +38,15 @@ XOR (`06 00 01 00 C1 02` = `C4`).
 | 02 | 56 | 54 | | 1D | 00 56 36 2E 30 31 2E 35 78 30 31 2D 30 31 2D 30 31 41 42 43 44 00 00 00 31 32 33 34 | 30 |
 | | | | | | V6.01.5x01-01-01ABCD   1234 | |
 
-#### 02. Cartridge Selection *(All following commands are based on "selected" cartridge)*
+#### 02. Cartridge Selection
 | Length | Request | Checksum | | Length | Response | Checksum | Note |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 03 | AF 04 | A8 | | 02 | 00 | 02 | L-Material |
 | 03 | AF 08 | A4 | | | | | R-Material |
 | 03 | AF 0C | A0 | | | | | L-Support |
 | 03 | AF 00 | AC | | | | | R-Support |
+
+*All following commands are based on "selected" cartridge.*
 
 #### 03. Request Cartridge Details
 | Length | Request | Checksum | | Length | Response | Checksum |
@@ -65,7 +67,7 @@ XOR (`06 00 01 00 C1 02` = `C4`).
 | | | | | 06 | 00 01 00 62 02 | 67 | `02 62` = 610 (MED610) |
 
 
-#### 06. Request Expiry Date
+#### 06. Request Expiry Date *(Cartridges always expire on the 15th)*
 | Length | Request | Checksum | | Length | Response | Checksum | Note |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 04 | 50 00 0D | 59 | | 06 | 00 80 4E 96 5E | 00 | `5E 96 4E 80` = 15/04/2020 |
