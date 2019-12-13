@@ -11,3 +11,13 @@ You may use this code to emulate supported material types whilst using unsupport
 
 ### VB.NET
 * *Work in progress.*
+
+## Mode of operation.
+
+The device I have access to (and all testing is based off) is a Objet30 Orthodesk. Please be aware that key differences do exist in various models.
+
+### Example Packet Structure
+
+| Length | Payload | Checksum |
+| --- | --- | --- |
+| 06 | 00 | 01 | 00 | C1 | 02 | C4 |
