@@ -20,4 +20,4 @@ The device I have access to (and all testing is based off) is a Objet30 Orthodes
 
 | Length | Payload | Checksum |
 | --- | --- | --- |
-| 06 | 00 | 01 | 00 | C1 | 02 | C4 |
+| 06 | 00 01 00 C1 02 | C4 |
