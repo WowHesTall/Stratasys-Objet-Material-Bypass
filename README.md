@@ -33,5 +33,5 @@ XOR (06 00 01 00 C1 02 = C4).
 
 #### RFID Initialisation
 | Length | Payload | Checksum | | Length | Payload | Checksum |
-| :---: | :---: | :---: | | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 06 | 00 01 00 C1 02 | C4 | | 06 | 00 01 00 C1 02 | C4 |
