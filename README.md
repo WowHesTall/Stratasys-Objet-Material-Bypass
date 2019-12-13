@@ -22,11 +22,11 @@ The device I have access to (and all testing is based off) is a Objet30 Orthodes
 | :---: | :---: | :---: |
 | 06 | 00 01 00 C1 02 | C4 |
 
-#### Length:
-Payload + Checksum
+** Length: **
+Payload + Checksum (00 01 00 C1 02 C4 = 06).
 
-#### Payload:
-Generally reversed.
+** Payload: **
+Generally reversed (00 01 00 C1 02 = 02 C1 00 01 00).
 
-#### Checksum:
-XOR.
+** Checksum: **
+XOR (06 00 01 00 C1 02 = C4).
