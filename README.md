@@ -19,5 +19,9 @@ The device I have access to (and all testing is based off) is a Objet30 Orthodes
 ### Example Packet Structure
 
 | Length | Payload | Checksum |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | 06 | 00 01 00 C1 02 | C4 |
+
+* *Length: Payload + Checksum *
+* *Payload: Generally reversed. *
+* *Checksum: XOR. *
