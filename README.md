@@ -44,3 +44,8 @@ XOR (06 00 01 00 C1 02 = C4).
 | 03 | AF 08 | A4 | | | | | R-Material |
 | 03 | AF 0C | A0 | | | | | L-Support |
 | 03 | AF 00 | AC | | | | | R-Support |
+
+#### 03. Request Cartridge Details
+| Length | Request | Checksum | | Length | Response | Checksum |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+03 | 79 01 | 7B | | 07 | 00 *B0 C9 BD 90* 00 | 53 |
