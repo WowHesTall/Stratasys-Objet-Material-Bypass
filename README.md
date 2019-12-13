@@ -31,8 +31,16 @@ Generally reversed (00 01 00 C1 02 = 02 C1 00 01 00).
 **Checksum:**
 XOR (06 00 01 00 C1 02 = C4).
 
-#### RFID Initialisation
+#### 01. RFID Initialisation
 | Length | Request | Checksum | | Length | Response | Checksum |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 02 | 56 | 54 | | 1D | 00 56 36 2E 30 31 2E 35 78 30 31 2D 30 31 2D 30 31 41 42 43 44 00 00 00 31 32 33 34 | 30 |
 | | | | | | V6.01.5x01-01-01ABCD   1234 | |
+
+#### 02. Cartridge Selection
+| Length | Request | Checksum | | Length | Response | Checksum | Note |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 03 | AF 04 | A8 | | 02 | 00 | 02 | L-Material |
+| 03 | AF 08 | A4 | | | | | R-Material |
+| 03 | AF 0C | A0 | | | | | L-Support |
+| 03 | AF 00 | AC | | | | | R-Support |
