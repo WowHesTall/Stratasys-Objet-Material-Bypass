@@ -50,17 +50,19 @@ XOR (06 00 01 00 C1 02 = C4).
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 03 | 79 01 | 7B | | 07 | 00 **B0 C9 BD 90** 00 | 53 |
 
-#### 04. Request Cartridge Presence
+#### 04. Request Cartridge Presence *Note response from #03*
 | Length | Request | Checksum | | Length | Response | Checksum | Note |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 07 | 7A B0 C9 BD 90 01 | 28 | | 06 | 00 CA 00 00 AA | 66 | Present |
+| 07 | 7A **B0 C9 BD 90** 01 | 28 | | 06 | 00 CA 00 00 AA | 66 | Present |
 | | | | | 02 | FD | FF | Missing |
 
 #### 05. Request Material Type
 | Length | Request | Checksum | | Length | Response | Checksum | Note |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 04 | 50 00 08 | 5C | | 06 | 00 01 00 C1 02 | C4 | 705 (SUP705) |
+| | | | | 06 | 00 01 00 C2 02 | C7 | 706 (SUP706) |
 | | | | | 06 | 00 01 00 62 02 | 67 | 610 (MED610) |
+
 
 #### 06. Request Expiry Date
 | Length | Request | Checksum | | Length | Response | Checksum | Note |
