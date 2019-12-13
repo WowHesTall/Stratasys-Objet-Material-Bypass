@@ -37,7 +37,7 @@ XOR (06 00 01 00 C1 02 = C4).
 | 02 | 56 | 54 | | 1D | 00 56 36 2E 30 31 2E 35 78 30 31 2D 30 31 2D 30 31 41 42 43 44 00 00 00 31 32 33 34 | 30 |
 | | | | | | V6.01.5x01-01-01ABCD   1234 | |
 
-#### 02. Cartridge Selection
+#### 02. Cartridge Selection *(All following commands are based on "selected" cartridge)*
 | Length | Request | Checksum | | Length | Response | Checksum | Note |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 03 | AF 04 | A8 | | 02 | 00 | 02 | L-Material |
