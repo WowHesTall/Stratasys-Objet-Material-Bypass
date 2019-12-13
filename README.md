@@ -31,6 +31,7 @@ Generally reversed (00 01 00 C1 02 = 02 C1 00 01 00).
 **Checksum:**
 XOR (06 00 01 00 C1 02 = C4).
 
+### Sequance of Operation
 #### 01. RFID Initialisation
 | Length | Request | Checksum | | Length | Response | Checksum |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
