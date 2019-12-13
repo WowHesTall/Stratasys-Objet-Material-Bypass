@@ -50,7 +50,7 @@ XOR (06 00 01 00 C1 02 = C4).
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 03 | 79 01 | 7B | | 07 | 00 **B0 C9 BD 90** 00 | 53 |
 
-#### 04. Request Cartridge Presence *Note response from #03*
+#### 04. Request Cartridge Presence *(Note response from #03)*
 | Length | Request | Checksum | | Length | Response | Checksum | Note |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 07 | 7A **B0 C9 BD 90** 01 | 28 | | 06 | 00 CA 00 00 AA | 66 | Present |
